@@ -1,0 +1,23 @@
+#main{
+    width: 100%;
+}
+#trai{
+    height: 100%;
+    width: 10%;
+    float: left;
+    border-right: 1px solid black;
+}
+#trai a{
+    display: block;
+    width: 10%;
+}
+#phai{
+    width: 90%;
+    float: left;
+}
+header, footer,#trai,#phai {
+    border:2px solid red;
+}
+table{
+    width: 100%;
+}
