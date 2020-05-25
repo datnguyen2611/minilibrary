@@ -48,7 +48,7 @@ class BookController extends Controller
         if ($request->hasFile('images')) {
             $image = $request->file('images');
             $getHashName = $image->hashName();
-            $destinationPath = public   _path('/images');
+            $destinationPath = public_path('/images');
             $image->move($destinationPath, $getHashName);
             $request->images = $getHashName;
         }
